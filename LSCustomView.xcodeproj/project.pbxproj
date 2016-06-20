@@ -15,6 +15,7 @@
 		53A2F45C1D17B7E1006954FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A2F45A1D17B7E1006954FA /* LaunchScreen.storyboard */; };
 		53A2F4671D17B7E1006954FA /* LSCustomViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2F4661D17B7E1006954FA /* LSCustomViewTests.m */; };
 		53A2F4721D17B7E1006954FA /* LSCustomViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2F4711D17B7E1006954FA /* LSCustomViewUITests.m */; };
+		53A2F4831D17B8A4006954FA /* LSCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2F4821D17B8A4006954FA /* LSCustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		53A2F46D1D17B7E1006954FA /* LSCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A2F4711D17B7E1006954FA /* LSCustomViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSCustomViewUITests.m; sourceTree = "<group>"; };
 		53A2F4731D17B7E1006954FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A2F4811D17B8A4006954FA /* LSCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSCustomView.h; path = LSCustomView/LSCustomView.h; sourceTree = "<group>"; };
+		53A2F4821D17B8A4006954FA /* LSCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSCustomView.m; path = LSCustomView/LSCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		53A2F4401D17B7E1006954FA = {
 			isa = PBXGroup;
 			children = (
+				53A2F4801D17B7F7006954FA /* LSCustomView */,
 				53A2F44B1D17B7E1006954FA /* LSCustomView */,
 				53A2F4651D17B7E1006954FA /* LSCustomViewTests */,
 				53A2F4701D17B7E1006954FA /* LSCustomViewUITests */,
@@ -138,6 +142,15 @@
 				53A2F4731D17B7E1006954FA /* Info.plist */,
 			);
 			path = LSCustomViewUITests;
+			sourceTree = "<group>";
+		};
+		53A2F4801D17B7F7006954FA /* LSCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				53A2F4811D17B8A4006954FA /* LSCustomView.h */,
+				53A2F4821D17B8A4006954FA /* LSCustomView.m */,
+			);
+			name = LSCustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				53A2F4541D17B7E1006954FA /* ViewController.m in Sources */,
 				53A2F4511D17B7E1006954FA /* AppDelegate.m in Sources */,
+				53A2F4831D17B8A4006954FA /* LSCustomView.m in Sources */,
 				53A2F44E1D17B7E1006954FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
